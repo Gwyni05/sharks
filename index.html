@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир акул</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        
+        header {
+            background-color: #0077be;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        
+        nav {
+            background-color: #005689;
+            padding: 0.5rem;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav li {
+            margin: 0 1rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        h1, h2 {
+            color: #0077be;
+        }
+        
+        .shark-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 1rem;
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+        
+     
+        }
+        
+        footer {
+            background-color: #0077be;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Мир акул</h3>
+        <h3>Исследуйте удивительный мир этих древних хищников</h3>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">Об акулах</a></li>
+            <li><a href="#species">Виды акул</a></li>
+            <li><a href="#facts">Интересные факты</a></li>
+            <li><a href="#conservation">Охрана акул</a></li>
+        </ul>
+    </nav>
+    
+
+    <main>
+        <section id="about">
+            <div class="shark-card">
+                <h2>Кто такие акулы?</h2>
+                <img src="https://images.unsplash.com/photo-1560275619-4662e36fa65c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Акула в океане">
+                <p>Акулы — это группа рыб, характеризующаяся хрящевым скелетом, пятью-семью жаберными щелями по бокам головы и плавниками, не покрытыми кожей. Они появились более 400 миллионов лет назад и с тех пор практически не изменились.</p>
+                <p>Акулы играют важную роль в морских экосистемах, поддерживая баланс среди морских обитателей. Существует более 500 видов акул, от маленьких карликовых акул длиной всего 17 см до гигантской китовой акулы, достигающей 12 метров в длину.</p>
+            </div>
+        </section>
+        
+        <section id="species">
+            <div class="shark-card">
+                <h2>Виды акул</h2>
+                <img src="shark1.jpg">
+		<h3>Акула-домовой, или скапаноринх, или митцекурина</h3>
+		<img src="shark2.jpg">
+		<h3>Ржавая акула-нянька ferrugineus</h3>
+		<img src="shark3.jpg">
+		<h3>Бычья акула</h3>
+		<img src="shark4.jpg">
+		<h3>Пятнистая шорная акула (лат. Brachaelurus waddi)</h3>
+            </div>
+        </section>
+        
+        <section id="facts">
+            <div class="shark-card">
+                <h2>Интересные факты об акулах</h2>
+                
+                <ul>
+                    <li>Акулы могут обнаруживать электрические поля, создаваемые другими животными.</li>
+                    <li>У акул нет костей — их скелет состоит из хрящей.</li>
+                    <li>Некоторые виды акул могут жить до 100 лет.</li>
+                    <li>Акулы постоянно теряют и заменяют зубы. Некоторые виды могут заменить до 30,000 зубов за свою жизнь.</li>
+                    <li>Не все акулы опасны для человека. Из 500+ видов только около дюжины считаются потенциально опасными.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="conservation">
+            <div class="shark-card">
+                <h2>Охрана акул</h2>
+                
+                <p>Многие виды акул находятся под угрозой исчезновения из-за перелова, загрязнения океанов и разрушения их естественной среды обитания. Ежегодно убивают около 100 миллионов акул, в основном ради их плавников.</p>
+                <p>Организации по всему миру работают над защитой акул, создавая морские заповедники и борясь с незаконным промыслом. Каждый может внести свой вклад, поддерживая эти организации и распространяя информацию о важности сохранения акул.</p>
+            </div>
+        </section>
+    </main>
+    
+
+</body>
+</html>
